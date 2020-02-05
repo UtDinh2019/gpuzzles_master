@@ -66,6 +66,7 @@ if (isset($_POST['topic'])){
 
 }//end if
 
+
 function emailValidate($answer){
     global $choice1,$choice2,$choice3,$choice4;
     if($answer == $choice1 or $answer == $choice2 or $answer == $choice3 or $answer == $choice4){
@@ -77,3 +78,4 @@ function emailValidate($answer){
 
 
 ?>
+<!--Ut Dinh -->
